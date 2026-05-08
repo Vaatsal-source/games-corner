@@ -3,7 +3,7 @@ import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDO4oTN6reAimkADfJq_GMYxG2bASwYboM",
+  apiKey: "process.env.REACT_APP_API_URL",
   authDomain: "gamer-s-corner.firebaseapp.com",
   projectId: "gamer-s-corner",
   storageBucket: "gamer-s-corner.firebasestorage.app",
